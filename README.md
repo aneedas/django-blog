@@ -20,13 +20,20 @@ Django Blog is a web application that allows users to create, publish, and manag
         pip3  install -r requirements.txt
 
 
-3. Perform database migrations
+3. Perform database migrations:
+
+        python3 manage.py migrate
 
 
-4. Create a superuser (admin account)
+4. Create a superuser (admin account):
+
+        python3 manage.py createsuperuser
 
 
-5. Start the development server
+5. Start the development server:
+
+        python3 manage.py runserver
+        
 
 
 6. Access the application by visiting `http://localhost:8000` in your web browser.
